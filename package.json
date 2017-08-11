@@ -1,0 +1,31 @@
+{
+  "name": "english-accents-db",
+  "version": "0.1.0",
+  "description": "English accent videos database",
+  "keywords": [
+    "json",
+    "database",
+    "english"
+  ],
+  "bugs": {
+    "url": "https://github.com/ismaelgt/english-accents-db/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Ismael González Trujillo",
+    "email": "ismael.gonzaleztrujillo@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ismaelgt/english-accents-db.git"
+  },
+  "scripts": {
+    "test": "ava --verbose"
+  },
+  "devDependencies": {
+    "ava": "^0.21.0"
+  },
+  "engines": {
+    "node": ">=4"
+  }
+}
