@@ -20,10 +20,12 @@
     "url": "https://github.com/ismaelgt/english-accents-db.git"
   },
   "scripts": {
-    "test": "ava --verbose"
+    "test": "ava --verbose",
+    "format": "prettier --write english-accents.json"
   },
   "devDependencies": {
-    "ava": "^0.21.0"
+    "ava": "^0.21.0",
+    "prettier": "^1.5.3"
   },
   "engines": {
     "node": ">=4"
