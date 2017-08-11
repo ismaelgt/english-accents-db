@@ -1,0 +1,704 @@
+{
+  "accents" : {
+    "alabama" : {
+      "coords" : {
+        "lat" : 32.745476,
+        "lng" : -86.694188
+      },
+      "country" : "us",
+      "name" : "Alabama",
+      "videos" : [ "huLKa3Sysdw", "Bg3dDXxrMZU", "vygpejiQEdI", "lGQs06KcPAc", "aeB598Sy2gI" ]
+    },
+    "alaska" : {
+      "coords" : {
+        "lat" : 64.85485,
+        "lng" : -150.973042
+      },
+      "country" : "us",
+      "name" : "Alaska",
+      "videos" : [ "aPWA7pER5vE", "JzWxT0QNYsE" ]
+    },
+    "all-ca" : {
+      "country" : "ca",
+      "name" : "Canadian Accent",
+      "videos" : [ "jrTCDi3xbTw", "A5Vat3ndyeA" ]
+    },
+    "all-nz" : {
+      "country" : "nz",
+      "name" : "All regions",
+      "videos" : [ "PVQ7O0KgQqo" ]
+    },
+    "arizona" : {
+      "coords" : {
+        "lat" : 34.304337,
+        "lng" : -111.614609
+      },
+      "country" : "us",
+      "name" : "Arizona",
+      "videos" : [ "jusOFxVfjjI", "r2vM04zuO90" ]
+    },
+    "arkansas" : {
+      "coords" : {
+        "lat" : 34.731342,
+        "lng" : -92.343361
+      },
+      "country" : "us",
+      "name" : "Arkansas",
+      "videos" : [ "S2HQyeJYKwM", "neI9of93a2U" ]
+    },
+    "birmingham" : {
+      "coords" : {
+        "lat" : 52.49199,
+        "lng" : -1.889045
+      },
+      "country" : "gb",
+      "name" : "Birmingham (Brummie)",
+      "videos" : [ "1K7xdiUv7So", "65xVky__r6U", "6v5A765sDUE" ]
+    },
+    "bristol" : {
+      "coords" : {
+        "lat" : 51.454597,
+        "lng" : -2.587918
+      },
+      "country" : "gb",
+      "name" : "Bristol (Bristolian)",
+      "videos" : [ "iXcizut9qA8", "59w6M7L2ijU", "731WC6dBMLU" ]
+    },
+    "california" : {
+      "coords" : {
+        "lat" : 36.536523,
+        "lng" : -119.657953
+      },
+      "country" : "us",
+      "name" : "California",
+      "videos" : [ "80xMoaAiHfI" ]
+    },
+    "colorado" : {
+      "coords" : {
+        "lat" : 39.308749,
+        "lng" : -105.509586
+      },
+      "country" : "us",
+      "name" : "Colorado",
+      "videos" : [ "VZGV3tBHqkg", "79_By_7Yxhk", "r39Mo5RGWBI" ]
+    },
+    "connecticut" : {
+      "coords" : {
+        "lat" : 41.677608,
+        "lng" : -72.708251
+      },
+      "country" : "us",
+      "name" : "Connecticut",
+      "videos" : [ "jO7qqVvwI1E", "-Kead-A-b64" ]
+    },
+    "cork" : {
+      "coords" : {
+        "lat" : 51.89662,
+        "lng" : -8.484682
+      },
+      "country" : "ie",
+      "name" : "Cork",
+      "videos" : [ "9zGTNJ67t_o", "jTU8PX1rQUs" ]
+    },
+    "cornwall" : {
+      "coords" : {
+        "lat" : 50.264121,
+        "lng" : -5.055756
+      },
+      "country" : "gb",
+      "name" : "Cornwall (Cornish)",
+      "videos" : [ "tcMJWZBzYjU", "Koxl4-t3i4M" ]
+    },
+    "dc" : {
+      "coords" : {
+        "lat" : 38.926513,
+        "lng" : -77.029685
+      },
+      "country" : "us",
+      "name" : "Washington, DC",
+      "videos" : [ "AFK8zSnslZc", "_ypWDgD-L6I" ]
+    },
+    "edinburgh" : {
+      "coords" : {
+        "lat" : 55.953253,
+        "lng" : -3.188283
+      },
+      "country" : "gb",
+      "name" : "Edinburgh",
+      "videos" : [ "JatocJtUQRM", "2lqS4JJ6Z9w" ]
+    },
+    "florida" : {
+      "coords" : {
+        "lat" : 27.755804,
+        "lng" : -81.644812
+      },
+      "country" : "us",
+      "name" : "Florida",
+      "videos" : [ "spHogjIcx4g", "Xf3UhYH8CF4", "KLykJtigKdA" ]
+    },
+    "gb-vs-us" : {
+      "country" : "gb",
+      "name" : "British vs American",
+      "videos" : [ "wYmrg3owTRE" ]
+    },
+    "georgia" : {
+      "coords" : {
+        "lat" : 32.565726,
+        "lng" : -83.30344
+      },
+      "country" : "us",
+      "name" : "Georgia",
+      "videos" : [ "vk-7CMpT38E", "YYAqrKqJg1c", "a61_TNka9oA" ]
+    },
+    "gibraltar" : {
+      "coords" : {
+        "lat" : 36.134537,
+        "lng" : -5.347682
+      },
+      "country" : "gb",
+      "name" : "Gibraltar",
+      "videos" : [ "fn_gUsYhDXs", "AcWhc6UF75Q" ]
+    },
+    "glasgow" : {
+      "coords" : {
+        "lat" : 55.86422,
+        "lng" : -4.251948
+      },
+      "country" : "gb",
+      "name" : "Glasgow",
+      "videos" : [ "extq6S6WZQU", "SGKoekcThLE", "QyOZTqTIF6s", "_FSWlfcg6oA" ]
+    },
+    "hawaii" : {
+      "coords" : {
+        "lat" : 19.692304,
+        "lng" : -155.42158
+      },
+      "country" : "us",
+      "name" : "Hawaii",
+      "videos" : [ "jG_FsknQpAE", "xaXjKoZ4wrc", "hHkGCFL_2is" ]
+    },
+    "illinois" : {
+      "coords" : {
+        "lat" : 41.876353,
+        "lng" : -87.630574
+      },
+      "country" : "us",
+      "name" : "Illinois",
+      "videos" : [ "HnhMJN5ItX4" ]
+    },
+    "indiana" : {
+      "coords" : {
+        "lat" : 39.862775,
+        "lng" : -86.147558
+      },
+      "country" : "us",
+      "name" : "Indiana",
+      "videos" : [ "Li04v8B7-qo", "wRDkmfL0-5g", "tGvlemweeec" ]
+    },
+    "iowa" : {
+      "coords" : {
+        "lat" : 41.990005,
+        "lng" : -93.502421
+      },
+      "country" : "us",
+      "name" : "Iowa",
+      "videos" : [ "B4wMrS8gL1M", "c7Uvv-tn9_4", "DFF5pCYVRvI" ]
+    },
+    "kansas" : {
+      "coords" : {
+        "lat" : 38.485963,
+        "lng" : -98.4549
+      },
+      "country" : "us",
+      "name" : "Kansas",
+      "videos" : [ "-C6MPNOatWw", "cNtEUjnBYFg", "Nq2ihHs3lhU" ]
+    },
+    "kentucky" : {
+      "coords" : {
+        "lat" : 37.391781,
+        "lng" : -84.957846
+      },
+      "country" : "us",
+      "name" : "Kentucky",
+      "videos" : [ "3lBHUHpZM3E", "1BfwH49YvNc", "0RVBQ7tV9vA", "nAE-5IG0RrU" ]
+    },
+    "lancashire" : {
+      "coords" : {
+        "lat" : 53.765584,
+        "lng" : -2.70316
+      },
+      "country" : "gb",
+      "name" : "Lancashire",
+      "videos" : [ "b1jpMQWkSr0", "OktDllQvXIY" ]
+    },
+    "liverpool" : {
+      "coords" : {
+        "lat" : 53.414913,
+        "lng" : -2.991191
+      },
+      "country" : "gb",
+      "name" : "Liverpool (Scouse)",
+      "videos" : [ "hycOWmNWkHA", "mDtNE_QhO8A" ]
+    },
+    "london" : {
+      "coords" : {
+        "lat" : 51.513902,
+        "lng" : -0.09361
+      },
+      "country" : "gb",
+      "name" : "London (Cockney)",
+      "videos" : [ "1WvIwkL8oLc", "LnjGNJ5JL8w" ]
+    },
+    "louisiana" : {
+      "coords" : {
+        "lat" : 29.951391,
+        "lng" : -90.086418
+      },
+      "country" : "us",
+      "name" : "Louisiana",
+      "videos" : [ "tpFDNTo4DNg" ]
+    },
+    "maine" : {
+      "coords" : {
+        "lat" : 44.994848,
+        "lng" : -69.063018
+      },
+      "country" : "us",
+      "name" : "Maine",
+      "videos" : [ "AX68AkoFoUc", "ftZYb5HGDlI" ]
+    },
+    "manchester" : {
+      "coords" : {
+        "lat" : 53.481154,
+        "lng" : -2.243506
+      },
+      "country" : "gb",
+      "name" : "Manchester (Mancunian)",
+      "videos" : [ "GsrZk99s9LY", "eB2QbnyBe6s" ]
+    },
+    "maryland" : {
+      "coords" : {
+        "lat" : 39.29077,
+        "lng" : -76.612403
+      },
+      "country" : "us",
+      "name" : "Maryland",
+      "videos" : [ "w8zavPW3Bus", "B3hy1kGioJU" ]
+    },
+    "massachusetts" : {
+      "coords" : {
+        "lat" : 42.359477,
+        "lng" : -71.057854
+      },
+      "country" : "us",
+      "name" : "Massachusetts",
+      "videos" : [ "rLwbzGyC6t4 " ]
+    },
+    "michigan" : {
+      "coords" : {
+        "lat" : 43.817834,
+        "lng" : -84.775146
+      },
+      "country" : "us",
+      "name" : "Michigan",
+      "videos" : [ "Nn9yJPrPqmk" ]
+    },
+    "minnesota" : {
+      "coords" : {
+        "lat" : 44.974753,
+        "lng" : -93.273405
+      },
+      "country" : "us",
+      "name" : "Minnesota",
+      "videos" : [ "iVlNl_LX47I" ]
+    },
+    "mississippi" : {
+      "coords" : {
+        "lat" : 33.476968,
+        "lng" : -89.659471
+      },
+      "country" : "us",
+      "name" : "Mississippi",
+      "videos" : [ "Bt04Y5jqUyQ" ]
+    },
+    "missouri" : {
+      "coords" : {
+        "lat" : 38.300429,
+        "lng" : -92.428675
+      },
+      "country" : "us",
+      "name" : "Missouri",
+      "videos" : [ "8f06sEOw-C4" ]
+    },
+    "montana" : {
+      "coords" : {
+        "lat" : 46.907658,
+        "lng" : -109.74374
+      },
+      "country" : "us",
+      "name" : "Montana",
+      "videos" : [ "_6sAFaxSovk" ]
+    },
+    "nebraska" : {
+      "coords" : {
+        "lat" : 41.487145,
+        "lng" : -99.441547
+      },
+      "country" : "us",
+      "name" : "Nebraska",
+      "videos" : [ "sl0IqHI1HWI" ]
+    },
+    "nevada" : {
+      "coords" : {
+        "lat" : 39.746085,
+        "lng" : -116.967
+      },
+      "country" : "us",
+      "name" : "Nevada",
+      "videos" : [ "51juwzM4plI" ]
+    },
+    "new-hampshire" : {
+      "coords" : {
+        "lat" : 43.39127,
+        "lng" : -71.604064
+      },
+      "country" : "us",
+      "name" : "New Hampshire",
+      "videos" : [ "G2tQaunibnU" ]
+    },
+    "new-jersey" : {
+      "coords" : {
+        "lat" : 39.484249,
+        "lng" : -75.033783
+      },
+      "country" : "us",
+      "name" : "New Jersey",
+      "videos" : [ "sN2zNC0RYBI" ]
+    },
+    "new-mexico" : {
+      "coords" : {
+        "lat" : 34.065702,
+        "lng" : -106.081488
+      },
+      "country" : "us",
+      "name" : "New Mexico",
+      "videos" : [ "6uhSKDpKt8o" ]
+    },
+    "new-york" : {
+      "coords" : {
+        "lat" : 40.677974,
+        "lng" : -73.947755
+      },
+      "country" : "us",
+      "name" : "New York",
+      "videos" : [ "T9yLRJA6zU8" ]
+    },
+    "newcastle" : {
+      "coords" : {
+        "lat" : 54.983595,
+        "lng" : -1.617461
+      },
+      "country" : "gb",
+      "name" : "Newcastle (Geordie)",
+      "videos" : [ "w2woc46LXkw" ]
+    },
+    "norfolk" : {
+      "coords" : {
+        "lat" : 52.626091,
+        "lng" : 1.281731
+      },
+      "country" : "gb",
+      "name" : "Norfolk",
+      "videos" : [ "G0wrI-vqh54", "GVLiQy_-lXY" ]
+    },
+    "north-carolina" : {
+      "coords" : {
+        "lat" : 35.561047,
+        "lng" : -79.067373
+      },
+      "country" : "us",
+      "name" : "North Carolina",
+      "videos" : [ "szvDXwab_gc" ]
+    },
+    "north-dakota" : {
+      "coords" : {
+        "lat" : 47.39386,
+        "lng" : -100.293199
+      },
+      "country" : "us",
+      "name" : "North Dakota",
+      "videos" : [ "zy1z3o86FbI" ]
+    },
+    "ohio" : {
+      "coords" : {
+        "lat" : 40.269264,
+        "lng" : -82.82549
+      },
+      "country" : "us",
+      "name" : "Ohio",
+      "videos" : [ "JKhUmJwp0LA" ]
+    },
+    "oklahoma" : {
+      "coords" : {
+        "lat" : 35.941309,
+        "lng" : -97.280105
+      },
+      "country" : "us",
+      "name" : "Oklahoma",
+      "videos" : [ "LqIh7owx4DI" ]
+    },
+    "oregon" : {
+      "coords" : {
+        "lat" : 43.81143,
+        "lng" : -120.617181
+      },
+      "country" : "us",
+      "name" : "Oregon",
+      "videos" : [ "7UwE1E2Eebk" ]
+    },
+    "pennsylvania" : {
+      "coords" : {
+        "lat" : 40.831568,
+        "lng" : -77.684282
+      },
+      "country" : "us",
+      "name" : "Pennsylvania",
+      "videos" : [ "_rtA82xDzkk" ]
+    },
+    "rhode-island" : {
+      "coords" : {
+        "lat" : 41.722985,
+        "lng" : -71.592436
+      },
+      "country" : "us",
+      "name" : "Rhode Island",
+      "videos" : [ "TZK6VTUBFGM" ]
+    },
+    "rp" : {
+      "country" : "gb",
+      "name" : "RP, Received Pronunciation",
+      "videos" : [ "_hRQq5e7Wi0", "fiul7F6T5_g" ]
+    },
+    "somerset" : {
+      "coords" : {
+        "lat" : 51.015174,
+        "lng" : -3.102662
+      },
+      "country" : "gb",
+      "name" : "Somerset",
+      "videos" : [ "WnSrBNxNHVQ", "BErF_KpU5fw" ]
+    },
+    "south-carolina" : {
+      "coords" : {
+        "lat" : 33.933311,
+        "lng" : -80.444215
+      },
+      "country" : "us",
+      "name" : "South Carolina",
+      "videos" : [ "bOoTV2N1Dng" ]
+    },
+    "south-dakota" : {
+      "coords" : {
+        "lat" : 44.489219,
+        "lng" : -100.304251
+      },
+      "country" : "us",
+      "name" : "South Dakota",
+      "videos" : [ "DuBenCPOq3c" ]
+    },
+    "sydney" : {
+      "coords" : {
+        "lat" : -33.869927,
+        "lng" : 151.211577
+      },
+      "country" : "au",
+      "name" : "Sydney",
+      "videos" : [ "1J8GMK02UqM" ]
+    },
+    "tennessee" : {
+      "coords" : {
+        "lat" : 35.68473,
+        "lng" : -86.58557
+      },
+      "country" : "us",
+      "name" : "Tennessee",
+      "videos" : [ "nvdiumpNMCs" ]
+    },
+    "texas" : {
+      "coords" : {
+        "lat" : 31.485542,
+        "lng" : -99.101441
+      },
+      "country" : "us",
+      "name" : "Texas",
+      "videos" : [ "s3AuqeI51mY", "IzyTLJWNkas" ]
+    },
+    "utah" : {
+      "coords" : {
+        "lat" : 39.095443,
+        "lng" : -111.758251
+      },
+      "country" : "us",
+      "name" : "Utah",
+      "videos" : [ "HuJOHOwxZYI" ]
+    },
+    "vermont" : {
+      "coords" : {
+        "lat" : 44.373093,
+        "lng" : -72.707802
+      },
+      "country" : "us",
+      "name" : "Vermont",
+      "videos" : [ "jJKPHiBZIZY" ]
+    },
+    "virginia" : {
+      "coords" : {
+        "lat" : 37.373398,
+        "lng" : -78.406776
+      },
+      "country" : "us",
+      "name" : "Virginia",
+      "videos" : [ "YivQL60RqH8" ]
+    },
+    "west-virginia" : {
+      "coords" : {
+        "lat" : 38.486993,
+        "lng" : -81.019173
+      },
+      "country" : "us",
+      "name" : "West Virginia",
+      "videos" : [ "oqhFbo3Iye4" ]
+    },
+    "wisconsin" : {
+      "coords" : {
+        "lat" : 44.654917,
+        "lng" : -89.565148
+      },
+      "country" : "us",
+      "name" : "Wisconsin",
+      "videos" : [ "U61JcjNrKGo" ]
+    },
+    "wyoming" : {
+      "coords" : {
+        "lat" : 42.986342,
+        "lng" : -107.666672
+      },
+      "country" : "us",
+      "name" : "Wyoming",
+      "videos" : [ "Lugx3VdxCNU" ]
+    },
+    "yorkshire" : {
+      "coords" : {
+        "lat" : 53.963984,
+        "lng" : -1.08833
+      },
+      "country" : "gb",
+      "name" : "Yorkshire",
+      "videos" : [ "2Qx_2I9QBaA", "6jitXnalclc", "jzAD2GLfaNU" ]
+    }
+  },
+  "countries" : {
+    "au" : {
+      "coords" : {
+        "ne" : {
+          "lat" : -12.396535,
+          "lng" : 152.942475
+        },
+        "sw" : {
+          "lat" : -39.446947,
+          "lng" : 113.743257
+        }
+      },
+      "flag" : "🇦🇺",
+      "name" : "Australia",
+      "order" : 5,
+      "published" : false,
+      "zoom" : 6
+    },
+    "ca" : {
+      "coords" : {
+        "ne" : {
+          "lat" : 67.366466,
+          "lng" : -61.185497
+        },
+        "sw" : {
+          "lat" : 49.025549,
+          "lng" : -135.540964
+        }
+      },
+      "flag" : "🇨🇦",
+      "name" : "Canada",
+      "order" : 3,
+      "published" : false,
+      "zoom" : 6
+    },
+    "gb" : {
+      "coords" : {
+        "ne" : {
+          "lat" : 56.423256,
+          "lng" : -1.39493
+        },
+        "sw" : {
+          "lat" : 50.663662,
+          "lng" : -4.910555
+        }
+      },
+      "flag" : "🇬🇧",
+      "name" : "United Kingdom",
+      "order" : 1,
+      "published" : true,
+      "zoom" : 9
+    },
+    "ie" : {
+      "coords" : {
+        "ne" : {
+          "lat" : 54.320552,
+          "lng" : -5.967289
+        },
+        "sw" : {
+          "lat" : 51.501568,
+          "lng" : -10.379801
+        }
+      },
+      "flag" : "🇮🇪",
+      "name" : "Ireland",
+      "order" : 4,
+      "published" : false,
+      "zoom" : 9
+    },
+    "nz" : {
+      "coords" : {
+        "ne" : {
+          "lat" : -34.967136,
+          "lng" : 177.983005
+        },
+        "sw" : {
+          "lat" : -44.484466,
+          "lng" : 166.735014
+        }
+      },
+      "flag" : "🇳🇿",
+      "name" : "New Zealand",
+      "order" : 6,
+      "published" : false,
+      "zoom" : 9
+    },
+    "us" : {
+      "coords" : {
+        "ne" : {
+          "lat" : 44.644828,
+          "lng" : -66.895662
+        },
+        "sw" : {
+          "lat" : 26.51186,
+          "lng" : -123.635286
+        }
+      },
+      "flag" : "🇺🇸",
+      "name" : "United States",
+      "order" : 2,
+      "published" : true,
+      "zoom" : 6
+    }
+  }
+}
