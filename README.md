@@ -4,21 +4,27 @@ A database of English accent videos, in JSON format.
 
 Used by [English Accents Map](https://www.englishaccentsmap.com/) and [English Accents CLI](https://github.com/ismaelgt/english-accents-cli).
 
-## Test
+## Usage
 
-Install the dependencies:
+### In Node.js
 
-```
-$ npm install
-```
+1. Install this module as a dependency: `npm i english-accents-db`
+1. Use it with:
 
-Then run:
-
-```
-$ npm test
+```javascript
+const accentsJson = require('english-accents-db')
 ```
 
-This will check that the JSON is valid and all required properties are defined.
+### Download
+
+Download the [JSON file](english-accents.json) and do whatever you want with it.
+
+## Contributing
+
+1. Clone this repo
+1. Install dependencies: `npm i`
+1. Add an accent!
+1. Run the tests: `npm t`
 
 ## License
 
