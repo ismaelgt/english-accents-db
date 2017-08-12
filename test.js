@@ -1,32 +1,31 @@
 import test from 'ava'
+import Ajv from 'ajv'
 
-let json, countryKeys
+const ajv = new Ajv()
+let data, schema
 
-test.before('is valid JSON', t => {
+test.before('can parse data', t => {
   try {
-    json = require('./english-accents')
-    countryKeys = Object.keys(json.countries)
+    data = require('./english-accents')
     t.pass()
   } catch (e) {
     t.fail()
   }
 })
 
-test('countries are valid', t => {
-  for (const key in json.countries) {
-    t.not(json.countries[key].flag, undefined)
-    t.not(json.countries[key].name, undefined)
-    t.not(json.countries[key].order, undefined)
-    t.not(json.countries[key].published, undefined)
-    t.not(json.countries[key].zoom, undefined)
+test.before('can parse schema', t => {
+  try {
+    schema = require('./english-accents.schema')
+    t.pass()
+  } catch (e) {
+    t.fail()
   }
 })
 
-test('accents are valid', t => {
-  for (const key in json.accents) {
-    t.not(json.accents[key].country, undefined)
-    t.not(json.accents[key].name, undefined)
-    t.true(countryKeys.indexOf(json.accents[key].country) !== -1)
-    t.true(json.accents[key].videos.length > 0)
+test('data schema is valid', t => {
+  if (ajv.validate(schema, data)) {
+    t.pass()
+  } else {
+    t.fail(ajv.errorsText())
   }
 })

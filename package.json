@@ -25,6 +25,7 @@
     "test": "ava --verbose"
   },
   "devDependencies": {
+    "ajv": "^5.2.2",
     "ava": "^0.21.0",
     "prettier": "^1.5.3"
   },

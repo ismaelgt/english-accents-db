@@ -1,0 +1,120 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "description": "Schema for English accents database",
+  "definitions": {
+    "country": {
+      "description": "Country foreign key",
+      "type": "string",
+      "pattern": "^au|ca|gb|ie|nz|us$"
+    },
+    "boundaries": {
+      "description": "Boundaries defined by South West and North East coordinates",
+      "type": "object",
+      "properties": {
+        "sw": {
+          "$ref": "#/definitions/coordinates"
+        },
+        "ne": {
+          "$ref": "#/definitions/coordinates"
+        }
+      },
+      "required": ["sw", "ne"],
+      "additionalProperties": false
+    },
+    "coordinates": {
+      "description": "Coordinates defined by latitude and longitude",
+      "type": "object",
+      "properties": {
+        "lat": {
+          "description": "Latitude",
+          "type": "number"
+        },
+        "lng": {
+          "description": "Longitude",
+          "type": "number"
+        }
+      },
+      "required": ["lat", "lng"],
+      "additionalProperties": false
+    }
+  },
+  "type": "object",
+  "properties": {
+    "countries": {
+      "description": "Countries",
+      "type": "object",
+      "patternProperties": {
+        "^au|ca|gb|ie|nz|us$": {
+          "type": "object",
+          "properties": {
+            "coords": {
+              "$ref": "#/definitions/boundaries"
+            },
+            "name": {
+              "description": "Country name",
+              "type": "string"
+            },
+            "flag": {
+              "description": "Country flag emoji",
+              "type": "string",
+              "maxLength": 2
+            },
+            "order": {
+              "description": "Country order number, lowest first",
+              "type": "number",
+              "minimum": 1
+            },
+            "published": {
+              "description": "Is the country published?",
+              "type": "boolean"
+            },
+            "zoom": {
+              "description": "Zoom value for Google Maps when the country is selected",
+              "type": "number"
+            }
+          },
+          "required": ["coords", "name", "flag", "order", "published", "zoom"],
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "accents": {
+      "type": "object",
+      "patternProperties": {
+        "^[a-z-]+$": {
+          "type": "object",
+          "properties": {
+            "coords": {
+              "$ref": "#/definitions/coordinates"
+            },
+            "country": {
+              "$ref": "#/definitions/country"
+            },
+            "name": {
+              "description": "Accent place / area name",
+              "type": "string"
+            },
+            "videos": {
+              "description": "List of YouTube video ids",
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "description": "A YouTube video id (11 characters)",
+                "type": "string",
+                "minLength": 11,
+                "maxLength": 11
+              },
+              "uniqueItems": true
+            }
+          },
+          "required": ["country", "name", "videos"],
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "required": ["countries", "accents"],
+  "additionalProperties": false
+}
