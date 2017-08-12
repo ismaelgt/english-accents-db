@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "description": "English accent videos database",
   "keywords": [
-    "json",
     "database",
-    "english"
+    "english",
+    "json"
   ],
   "bugs": {
     "url": "https://github.com/ismaelgt/english-accents-db/issues"
@@ -15,13 +15,14 @@
     "name": "Ismael González Trujillo",
     "email": "ismael.gonzaleztrujillo@gmail.com"
   },
+  "main": "english-accents.json",
   "repository": {
     "type": "git",
     "url": "https://github.com/ismaelgt/english-accents-db.git"
   },
   "scripts": {
-    "test": "ava --verbose",
-    "format": "prettier --write english-accents.json"
+    "format": "prettier --write english-accents.json",
+    "test": "ava --verbose"
   },
   "devDependencies": {
     "ava": "^0.21.0",
