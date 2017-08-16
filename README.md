@@ -1,8 +1,16 @@
+<div align="center">
+  <a href="https://www.englishaccentsmap.com">
+    <img src="https://www.englishaccentsmap.com/android-chrome-512x512.png" width="256" />
+  </a>
+</div>
+
 # English Accents Database
 
 [![build](https://img.shields.io/travis/ismaelgt/english-accents-db.svg?style=flat-square)](https://travis-ci.org/ismaelgt/english-accents-db)
 [![dependencies](https://img.shields.io/david/ismaelgt/english-accents-db.svg?style=flat-square)](https://david-dm.org/ismaelgt/english-accents-db)
 [![license](https://img.shields.io/github/license/ismaelgt/english-accents-db.svg?style=flat-square)](https://github.com/ismaelgt/english-accents-db/blob/master/LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-blue.svg?style=flat-square)](http://makeapullrequest.com)
+
 
 A database of English accent videos, in JSON format.
 
@@ -16,7 +24,8 @@ Used by [English Accents Map](https://www.englishaccentsmap.com/) and [English A
 1. Use it with:
 
 ```javascript
-const accentsJson = require('english-accents-db')
+const accentsDb = require('english-accents-db')
+// Do stuff
 ```
 
 ### Download
@@ -31,10 +40,7 @@ The schema definition for [this database instance](english-accents.json) can be 
 
 ## Contributing
 
-1. Clone this repo
-1. Install dependencies: `npm i`
-1. Add an accent!
-1. Run the tests for validation: `npm t`
+Check the [contribution guide](CONTRIBUTING.md).
 
 ## License
 
